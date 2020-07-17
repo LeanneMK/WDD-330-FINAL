@@ -31,6 +31,13 @@ h1 {
   box-shadow: 0 0 10px #c7f0bd;
 }
 
+h2#speak {
+  color: #b3cdd1;
+  text-shadow: 8px 8px #6c464f;
+  text-align: end;
+  margin: 0% 15% 0% 0%;
+}
+
 .main {
   color: #6c464f;
   text-shadow: 4px 4px #9fa4c4;
@@ -49,6 +56,15 @@ div.main {
   width: 100%;
 }
 
+div.small-container {
+  display: block;
+  position: relative;
+  background-image: url(https://cdn.pixabay.com/photo/2015/03/30/20/33/heart-700141_960_720.jpg);
+  margin-top: 5%;
+  border-radius: 30px;
+  width: 100%;
+}
+
 .main-header {
   text-align: center;
   margin-bottom: 20px;
@@ -57,6 +73,15 @@ div.main {
 .main-input-comment {
   font-family: 'Work Sans', sans-serif;
   margin-bottom: 20px;
+}
+
+input#item {
+  font-family: 'Amiko', sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 95%;
+  font-size: smaller;
 }
 
 .main-comment-area {
@@ -72,7 +97,34 @@ div.main {
 }
 
 .main-analyze-button {
-  width: 50%;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #c7f0bd;
+  background-color: #b3cdd1;
+  text-shadow: 4px 4px #8491e4;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+input#add {
+  margin: 20px;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #c7f0bd;
+  background-color: #b3cdd1;
+  text-shadow: 4px 4px #8491e4;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+button {
+  margin: 20px;
+  width: 20%;
   padding: 10px;
   border: 1px solid #c7f0bd;
   background-color: #b3cdd1;
@@ -99,6 +151,19 @@ div.main {
   background-color: antiquewhite;
   border-radius: 10px;
   padding: 5px;
+}
+
+
+
+ul {
+  font-family: 'Amiko', sans-serif;
+  background-color: antiquewhite;
+}
+
+li {
+  font-family: 'Amiko', sans-serif;
+  font-size: x-small;
+  color: #6c464f;
 }
 
 .pos {
