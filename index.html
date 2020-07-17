@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kindness is...</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiko&family=Oswald:wght@700&family=Work+Sans:wght@800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Use Kind Words</h1>
+  </header>
+  <div class="main">
+    <h2 class="main-header">How Your Words Make Someone Feel</h2>
+    <section class="main-input-comment">
+      <label for="comment">Your words here:</label>
+      <textarea name="comment" id="comment" class="main-comment-area" placeholder="Your comment...">
+          </textarea>
+      <button class="main-analyze-button" onclick="onAnalyzeButtonClick()">Feelings...</button>
+    </section>
+    <section class="main-result">
+      <p id="main-result-block" class="main-result-block invisible">
+        <span>Result:</span>
+        <span id="result"></span>
+      </p>
+    </section>
+  </div>
+
+  <!-- Import axios library -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- Querystring library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+  <!-- Import our javascript file -->
+  <script src="text-processing.js"></script>
+</body>

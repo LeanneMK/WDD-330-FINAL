@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: xxx-large;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_960_720.jpg);
+  padding: 20px;
+}
+
+label,
+textarea {
+  font-family: 'Work Sans', sans-serif;
+  display: block;
+  font-size: 30px;
+  padding: 70px 0px 10px 0px;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 40px;
+  display: block;
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666_960_720.jpg);
+  text-align: center;
+  text-shadow: 4px 4px #6c464f;
+  border-radius: 10px;
+  color: #c7f0bd;
+  width: 75%;
+  box-shadow: 0 0 10px #c7f0bd;
+}
+
+.main {
+  color: #6c464f;
+  text-shadow: 4px 4px #9fa4c4;
+  padding: 30px;
+  width: 65%;
+  box-shadow: 0 0 10px #c7f0bd;
+}
+
+div.main {
+  display: block;
+  position: relative;
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666_960_720.jpg);
+  background-repeat: round;
+  margin-top: 15%;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-input-comment {
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.main-comment-area {
+  font-family: 'Amiko', sans-serif;
+  width: 95%;
+  height: fit-content;
+  border: #ced4da 1px solid;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+  margin: 0% 0% 5% 0%;
+  font-size: 16px;
+}
+
+.main-analyze-button {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #c7f0bd;
+  background-color: #b3cdd1;
+  text-shadow: 4px 4px #8491e4;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-analyze-button::-moz-focus-inner {
+  border: 0;
+}
+
+.main-analyze-button:hover {
+  background-color: #c7f0bd;
+  border-color: #c7f0bd;
+  cursor: pointer;
+}
+
+.main-result-block {
+  text-shadow: none;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.pos {
+  color: #9e768f;
+}
+
+.neg {
+  color: darkred;
+}
+
+.neutral {
+  color: gray
+}
+
+.invisible {
+  display: none;
+}
