@@ -46,7 +46,7 @@ const analyzeComment = (comment, callback) => {
 const handleEmptyComment = () => {
     const resultBlockElement = document.getElementById('main-result-block');
     resultBlockElement.classList.add('invisible');
-    return alert('Your comment is empty');
+    return alert('Please type a phrase');
 };
 
 const displayResult = result => {
@@ -63,16 +63,16 @@ const displayResult = result => {
     // Choosing the result text depending on response label
     switch (label) {
         case 'pos':
-            resultText = 'Wow! Your comment is very positive!';
+            resultText = 'Wow! Your words will make someone feel Great!';
             break;
         case 'neg':
-            resultText = 'Negative comment';
+            resultText = 'Not nice words';
             break;
         case 'neutral':
-            resultText = 'Simple comment';
+            resultText = 'Simple and kind';
             break;
         default:
-            resultText = 'Hmmm, can not understand your comment ';
+            resultText = 'Hmmm, can not understand your Phrase ';
     }
 
     // Setting the result text
