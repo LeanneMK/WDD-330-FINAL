@@ -59,7 +59,7 @@ button.addEventListener("click", function () {
 if ("serviceWorker" in navigator) {
     //window.addEventListener("load", () => {
     navigator.serviceWorker
-        .register("src/todo-sw.js")
+        .register("src/favorites.js")
         .then(reg => console.log("Speak Kindness: " + reg.scope))
         .catch(() => console.log("Remember to be Kind"));
     //});
